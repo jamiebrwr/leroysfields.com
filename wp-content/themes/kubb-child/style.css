@@ -1,0 +1,11 @@
+/*
+Theme Name: Kubb Child
+Theme URI: 
+Description: Child theme for the Kubb theme
+Author: <a href="http://www.madeinebor.com" title="Visit author homepage">Tom Rhodes</a>
+Author URI: 
+Template: kubb
+Version: 1.0.0
+*/
+
+@import url('../kubb/style.css');

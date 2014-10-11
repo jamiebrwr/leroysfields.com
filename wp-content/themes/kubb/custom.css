@@ -1,0 +1,10 @@
+/* Enter Custom CSS Below Here */
+
+/* PREVENT HEADER RESIZE
+
+.navbar.fixed .navbar-brand img { height: 52px !important; }
+.navbar.fixed .navbar-nav > li > a {
+    padding: 35px 14px !important;
+}
+
+*/

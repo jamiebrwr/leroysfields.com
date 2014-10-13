@@ -87,3 +87,17 @@
 1413154909|~|0.21|~|21.9|~|message|~|Only excluding archives directory based on settings. 1 total.
 1413154909|~|0.21|~|21.9|~|details|~|Exec command (Linux): zip -q -r -b '/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_backups/temp_zip_emktas4mhr/' '/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_backups/backup-leroysfields_com-2014_10_12-emktas4mhr.zip' . -i '*' -x '/wp-content/uploads/backupbuddy_backups/*' "/importbuddy.php" 2>&1
 1413154909|~|0.22|~|21.9|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; zip -q -r -b '/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_backups/temp_zip_emktas4mhr/' '/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_backups/backup-leroysfields_com-2014_10_12-emktas4mhr.zip' . -i '*' -x '/wp-content/uploads/backupbuddy_backups/*' "/importbuddy.php" 2>&1` (with path definition).
+<<<<<<< HEAD
+=======
+1413154934|~|24.65|~|21.9|~|details|~|exec() command output: ``; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1413154936|~|26.65|~|21.9|~|message|~|Full speed mode completed & generated ZIP file.
+1413154936|~|26.66|~|21.9|~|message|~|Backup ZIP file successfully created.
+1413154936|~|26.66|~|21.9|~|details|~|Chmod of ZIP file to 0644 succeeded.
+1413154936|~|26.7|~|21.91|~|details|~|Database Server has gone away, attempting to reconnect.
+1413154936|~|26.7|~|21.91|~|details|~|Database Server reconnection failed.
+1413154936|~|26.7|~|21.91|~|error|~|Backup FAILED. Backup file produced but Database Server has gone away, unable to schedule next backup step
+1413154936|~|26.71|~|21.91|~|error|~|Failed function `backup_zip_files`. Backup terminated.
+1413154936|~|26.71|~|21.91|~|details|~|Peak memory usage: 21.913 MB
+1413154936|~|26.71|~|21.91|~|action|~|halt_script
+1413154936|~|26.72|~|21.91|~|error|~|Mail error: `One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `emktas4mhr`. Please run a manual backup of the same type to verify backups are working properly.`.
+>>>>>>> 4bbb5008f83238a026d68d708dd5fcbf0805da98

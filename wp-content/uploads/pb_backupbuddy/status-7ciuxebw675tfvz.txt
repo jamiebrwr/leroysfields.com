@@ -1,0 +1,5 @@
+1413154907|~|0.77|~|22.05|~|error|~|mysqlbuddy: Error #43849374. Database went away from PHP while running from command line. The PHP <--> mysql connection likely timed out while we were doing other things.
+1413154907|~|0.78|~|22.05|~|error|~|Database Server reconnection failed.
+1413154936|~|26.7|~|21.91|~|error|~|Backup FAILED. Backup file produced but Database Server has gone away, unable to schedule next backup step
+1413154936|~|26.71|~|21.91|~|error|~|Failed function `backup_zip_files`. Backup terminated.
+1413154936|~|26.72|~|21.91|~|error|~|Mail error: `One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `emktas4mhr`. Please run a manual backup of the same type to verify backups are working properly.`.

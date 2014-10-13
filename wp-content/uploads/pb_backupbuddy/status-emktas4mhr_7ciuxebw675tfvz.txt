@@ -1,0 +1,100 @@
+1413154906|~|1.37|~|26.57|~|details|~|Starting backup process function.
+1413154906|~|1.37|~|26.57|~|details|~|Peak memory usage: 26.571 MB
+1413154906|~|1.38|~|26.57|~|details|~|Performing pre-backup procedures.
+1413154906|~|1.39|~|26.57|~|message|~|Full backup mode.
+1413154906|~|1.39|~|26.57|~|details|~|Backup serial generated: `emktas4mhr`.
+1413154906|~|1.39|~|26.57|~|details|~|Resetting statistics for last backup time and number of edits since last backup.
+1413154906|~|1.4|~|26.6|~|details|~|Creating DAT (data) file snapshotting site & backup information.
+1413154906|~|1.41|~|26.6|~|details|~|wp-config.php found in normal location.
+1413154907|~|1.41|~|26.6|~|details|~|Finished creating DAT (data) file.
+1413154907|~|1.43|~|26.62|~|details|~|Finished pre-backup procedures.
+1413154907|~|1.43|~|26.62|~|action|~|finish_settings
+1413154907|~|1.44|~|26.62|~|message|~|Running in modern backup mode based on settings. Mode value: `2`. Trigger: `manual`.
+1413154907|~|1.44|~|26.62|~|details|~|Scheduling Cron for `emktas4mhr`.
+1413154907|~|0.16|~|21.05|~|details|~|Attempted to increase maximum PHP runtime. Original: 30; New: 7200.
+1413154907|~|0.16|~|21.05|~|details|~|Set memory limit to 256M. Previous value < 256M.
+1413154907|~|0.16|~|21.05|~|details|~|Original PHP memory limit: 128; New: 256M.
+1413154907|~|0.16|~|21.05|~|message|~|Processing cron step for serial `emktas4mhr`...
+1413154907|~|0.18|~|21.87|~|details|~|Using cached zipbuddy classic methods: `exec,ziparchive,pclzip`.
+1413154907|~|0.18|~|21.87|~|details|~|Using cached zipbuddy classic exec path: ``.
+1413154907|~|0.18|~|21.87|~|details|~|Running process_backup() for serial `emktas4mhr`.
+1413154907|~|0.19|~|21.89|~|details|~|Found next step to run: `backup_create_database_dump`.
+1413154907|~|0.19|~|21.9|~|details|~|Peak memory usage: 21.897 MB
+1413154907|~|0.19|~|21.9|~|details|~|Starting function `backup_create_database_dump` now (1413154907).
+1413154907|~|0.2|~|21.9|~|action|~|start_database
+1413154907|~|0.2|~|21.9|~|message|~|Starting database backup process.
+1413154907|~|0.2|~|21.9|~|message|~|Using auto-detected database dump method(s) based on settings.
+1413154907|~|0.22|~|22.03|~|details|~|mysqlbuddy: Database host: `localhost`
+1413154907|~|0.22|~|22.03|~|details|~|mysqlbuddy: Loading mysqldump library.
+1413154907|~|0.22|~|22.03|~|details|~|mysqlbuddy: Mysql default directories: `/usr/bin/,/usr/bin/mysql/,/usr/local/bin/`
+1413154907|~|0.22|~|22.03|~|details|~|mysqlbuddy: Attempting to calculate exact mysql directory.
+1413154907|~|0.24|~|22.03|~|details|~|mysqlbuddy: Mysql reported its directory. Reported: `/Applications/MAMP/Library`; Adding binary location to beginning of mysql directory list: `/Applications/MAMP/Library/bin/`
+1413154907|~|0.24|~|22.03|~|details|~|mysqldump test: Testing available mysql database dump methods.
+1413154907|~|0.24|~|22.03|~|details|~|mysqldump test: exec() function exists. Testing running mysqldump via exec().
+1413154907|~|0.25|~|22.03|~|details|~|mysqldump test running next.
+1413154907|~|0.25|~|22.03|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; /Applications/MAMP/Library/bin/mysqldump --version  2>&1` (with path definition).
+1413154907|~|0.37|~|22.04|~|details|~|exec() command output: `mysqldump  Ver 10.13 Distrib 5.5.38, for osx10.6 (i386)`; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1413154907|~|0.38|~|22.04|~|details|~|mysqldump test: Command appears to be accessible and returns expected response.
+1413154907|~|0.38|~|22.04|~|message|~|mysqlbuddy: Detected database dump methods: `commandline,php`.
+1413154907|~|0.38|~|22.04|~|action|~|start_database
+1413154907|~|0.38|~|22.04|~|message|~|Starting database dump procedure.
+1413154907|~|0.39|~|22.04|~|details|~|mysqlbuddy: Output directory: `/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_temp/emktas4mhr/`. Base dump mode: `prefix`. Additional includes: ``. Additional excludes: ``. Methods: `commandline,php`.
+1413154907|~|0.39|~|22.04|~|details|~|mysqlbuddy: Calculating tables to backup. Next three lines:
+1413154907|~|0.42|~|22.04|~|details|~|mysqlbuddy: Base tables (0 tables): ``
+1413154907|~|0.42|~|22.04|~|details|~|mysqlbuddy: After addition (0 tables): ``
+1413154907|~|0.42|~|22.04|~|details|~|mysqlbuddy: After exclusion (0 tables): ``
+1413154907|~|0.42|~|22.04|~|details|~|Preparing to dump using available method(s) by priority. Methods: `commandline,php`
+1413154907|~|0.43|~|22.04|~|details|~|mysqlbuddy: Attempting dump method `commandline`.
+1413154907|~|0.43|~|22.04|~|details|~|mysqlbuddy: Preparing to run command line mysqldump via exec().
+1413154907|~|0.43|~|22.04|~|details|~|mysqlbuddy: Dumping specific tables.
+1413154907|~|0.43|~|22.04|~|details|~|mysqlbuddy: Command length: `278`.
+1413154907|~|0.44|~|22.04|~|details|~|mysqlbuddy: Command line length of `278` (bytes) is large enough ( >250 ) to verify compatibility. Checking maximum allowed command line length for this sytem.
+1413154907|~|0.44|~|22.04|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; echo $(( $(getconf ARG_MAX) - $(env | wc -c) ))` (with path definition).
+1413154907|~|0.54|~|22.04|~|details|~|exec() command output: `261605`; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1413154907|~|0.54|~|22.04|~|details|~|mysqlbuddy: Command output: `261605`; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1413154907|~|0.55|~|22.04|~|details|~|mysqlbuddy: Detected maximum command line length for this system: `261605`.
+1413154907|~|0.55|~|22.04|~|details|~|mysqlbuddy: This system's maximum command line length of `261605` is longer than command length of `278`. Continuing.
+1413154907|~|0.55|~|22.04|~|details|~|mysqlbuddy: Running dump via commandline next.
+1413154907|~|0.55|~|22.04|~|details|~|exec() command (password hidden) `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; /Applications/MAMP/Library/bin/mysqldump --host=localhost --user=root --password=*HIDDEN* --quick --skip-opt --skip-comments --create-options  leroys_fields  > /Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_temp/emktas4mhr/db_1.sql` (with path definition).
+1413154907|~|0.73|~|22.05|~|details|~|exec() command output: ``; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1413154907|~|0.77|~|22.05|~|error|~|mysqlbuddy: Error #43849374. Database went away from PHP while running from command line. The PHP <--> mysql connection likely timed out while we were doing other things.
+1413154907|~|0.78|~|22.05|~|error|~|Database Server reconnection failed.
+1413154908|~|0.78|~|22.05|~|details|~|mysqlbuddy: Command appears to succeeded and returned proper response.
+1413154908|~|0.78|~|22.05|~|message|~|mysqlbuddy: Database dump SQL file creation verified. Database dump successful.
+1413154908|~|0.79|~|22.05|~|details|~|mysqlbuddy: Dump method `commandline` completed successfully.
+1413154908|~|0.79|~|22.05|~|action|~|finish_database
+1413154908|~|0.79|~|22.05|~|message|~|Database dump procedure succeeded.
+1413154908|~|0.81|~|22.06|~|details|~|Finished function `backup_create_database_dump`.
+1413154908|~|0.82|~|22.06|~|details|~|Peak memory usage: 22.061 MB
+1413154908|~|0.82|~|22.06|~|details|~|Scheduling Cron for `emktas4mhr`.
+1413154909|~|0.15|~|21.05|~|details|~|Attempted to increase maximum PHP runtime. Original: 30; New: 7200.
+1413154909|~|0.15|~|21.05|~|details|~|Set memory limit to 256M. Previous value < 256M.
+1413154909|~|0.15|~|21.05|~|details|~|Original PHP memory limit: 128; New: 256M.
+1413154909|~|0.16|~|21.05|~|message|~|Processing cron step for serial `emktas4mhr`...
+1413154909|~|0.17|~|21.87|~|details|~|Using cached zipbuddy classic methods: `exec,ziparchive,pclzip`.
+1413154909|~|0.17|~|21.87|~|details|~|Using cached zipbuddy classic exec path: ``.
+1413154909|~|0.17|~|21.87|~|details|~|Running process_backup() for serial `emktas4mhr`.
+1413154909|~|0.18|~|21.89|~|details|~|Found next step to run: `backup_zip_files`.
+1413154909|~|0.18|~|21.9|~|details|~|Peak memory usage: 21.897 MB
+1413154909|~|0.19|~|21.9|~|details|~|Starting function `backup_zip_files` now (1413154909).
+1413154909|~|0.19|~|21.9|~|action|~|start_files
+1413154909|~|0.19|~|21.9|~|details|~|Backup root: `/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/`.
+1413154909|~|0.2|~|21.9|~|details|~|Using all available zip methods in preferred order.
+1413154909|~|0.2|~|21.9|~|details|~|Creating ZIP file `/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_backups/backup-leroysfields_com-2014_10_12-emktas4mhr.zip`. Adding directory `/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/`. Compression: 1; Excludes: /wp-content/uploads/backupbuddy_backups
+1413154909|~|0.2|~|21.9|~|details|~|Using exec() method for ZIP.
+1413154909|~|0.2|~|21.9|~|details|~|Calculating directories to exclude from backup.
+1413154909|~|0.21|~|21.9|~|details|~|Excluding: /wp-content/uploads/backupbuddy_backups/
+1413154909|~|0.21|~|21.9|~|message|~|Only excluding archives directory based on settings. 1 total.
+1413154909|~|0.21|~|21.9|~|details|~|Exec command (Linux): zip -q -r -b '/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_backups/temp_zip_emktas4mhr/' '/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_backups/backup-leroysfields_com-2014_10_12-emktas4mhr.zip' . -i '*' -x '/wp-content/uploads/backupbuddy_backups/*' "/importbuddy.php" 2>&1
+1413154909|~|0.22|~|21.9|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; zip -q -r -b '/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_backups/temp_zip_emktas4mhr/' '/Volumes/⌥Grind½Time→/сайты/leroysfields.com/wordpress/wp-content/uploads/backupbuddy_backups/backup-leroysfields_com-2014_10_12-emktas4mhr.zip' . -i '*' -x '/wp-content/uploads/backupbuddy_backups/*' "/importbuddy.php" 2>&1` (with path definition).
+1413154934|~|24.65|~|21.9|~|details|~|exec() command output: ``; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1413154936|~|26.65|~|21.9|~|message|~|Full speed mode completed & generated ZIP file.
+1413154936|~|26.66|~|21.9|~|message|~|Backup ZIP file successfully created.
+1413154936|~|26.66|~|21.9|~|details|~|Chmod of ZIP file to 0644 succeeded.
+1413154936|~|26.7|~|21.91|~|details|~|Database Server has gone away, attempting to reconnect.
+1413154936|~|26.7|~|21.91|~|details|~|Database Server reconnection failed.
+1413154936|~|26.7|~|21.91|~|error|~|Backup FAILED. Backup file produced but Database Server has gone away, unable to schedule next backup step
+1413154936|~|26.71|~|21.91|~|error|~|Failed function `backup_zip_files`. Backup terminated.
+1413154936|~|26.71|~|21.91|~|details|~|Peak memory usage: 21.913 MB
+1413154936|~|26.71|~|21.91|~|action|~|halt_script
+1413154936|~|26.72|~|21.91|~|error|~|Mail error: `One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `emktas4mhr`. Please run a manual backup of the same type to verify backups are working properly.`.

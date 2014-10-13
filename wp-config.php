@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'leroys_fields');
+define( 'DB_NAME', 'db171249_leroys_fields' );
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define( 'DB_USER', 'db171249' );
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define( 'DB_PASSWORD', 'n4734cSo05' );
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define( 'DB_HOST', 'internal-db.s171249.gridserver.com' );
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -59,7 +59,7 @@ define('NONCE_SALT',       ' K>U9tal19*J^!w}}9+u-p*8iv+f;Fk.fE@zLEd^jUHh_U:BX]#>
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.

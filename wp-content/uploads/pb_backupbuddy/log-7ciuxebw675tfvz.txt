@@ -1,0 +1,2 @@
+[Oct 12, 2014 23:01:47 0-error] [emktas4mhr] mysqlbuddy: Error #43849374. Database went away from PHP while running from command line. The PHP <--> mysql connection likely timed out while we were doing other things.
+[Oct 12, 2014 23:01:47 0-error] [emktas4mhr] Database Server reconnection failed.
